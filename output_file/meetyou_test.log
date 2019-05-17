@@ -1,0 +1,47 @@
+2019-05-13 11:24:15,973 - framework - INFO - 用例执行并保存为E:\python_project\K8s_port_test\output_file\20190513-112339测试用例结果.xlsx成功
+2019-05-13 11:24:16,504 - framework - INFO - E:\python_project\K8s_port_test\output_file\20190513-112339测试用例结果.xlsx删除成功
+2019-05-13 11:24:16,504 - framework - INFO - ----程序结束----
+2019-05-13 14:43:05,807 - framework - INFO - sdf
+2019-05-13 18:02:51,616 - framework - ERROR - 用例保存失败,失败原因：
+2019-05-13 18:05:11,135 - framework - ERROR - 用例保存失败,失败原因：
+2019-05-13 18:06:41,269 - framework - ERROR - 用例保存失败,失败原因：
+2019-05-13 18:07:22,837 - framework - ERROR - 用例保存失败,失败原因：
+2019-05-13 18:08:48,654 - framework - ERROR - 用例保存失败,失败原因：[Errno 2] No such file or directory: 'E:\\python_project\\K8s_port_test\\output_file\\report\\20190513-180847测试用例结果.xlsx'
+2019-05-13 18:10:01,019 - framework - ERROR - 用例保存失败,失败原因：[Errno 2] No such file or directory: 'E:\\python_project\\K8s_port_test\\output_file\\report\\20190513-180959测试用例结果.xlsx'
+2019-05-13 19:17:44,704 - framework - ERROR - 用例保存失败,失败原因：[Errno 2] No such file or directory: 'E:\\python_project\\K8s_port_test\\output_file\\report\\20190513-191742测试用例结果.xlsx'
+2019-05-13 20:52:42,432 - framework - ERROR - 用例保存失败,失败原因：[Errno 2] No such file or directory: 'E:\\python_project\\K8s_port_test\\output_file\\20190513-205238测试用例结果.xlsx'
+2019-05-13 20:52:44,443 - framework - INFO - ----程序结束----
+2019-05-13 20:55:03,792 - framework - ERROR - 用例保存失败,失败原因：openpyxl does not support  file format, please check you can open it with Excel first. Supported formats are: .xlsx,.xlsm,.xltx,.xltm
+2019-05-13 20:55:05,808 - framework - INFO - ----程序结束----
+2019-05-13 20:55:55,182 - framework - ERROR - 用例保存失败,失败原因：[Errno 2] No such file or directory: 'E:\\python_project\\K8s_port_test\\output_file\\测试用例结果.xlsx'
+2019-05-13 20:55:57,201 - framework - INFO - ----程序结束----
+2019-05-13 20:57:32,557 - framework - ERROR - 用例保存失败,失败原因：[Errno 2] No such file or directory: 'E:\\python_project\\K8s_port_test\\output_file\\report\\20190513-205730测试用例结果.xlsx'
+2019-05-13 20:57:34,572 - framework - INFO - ----程序结束----
+2019-05-13 21:02:37,552 - framework - ERROR - 用例保存失败,失败原因：[Errno 2] No such file or directory: 'E:\\python_project\\K8s_port_test\\output_file\\report\\20190513-210234测试用例结果.xlsx'
+2019-05-13 21:02:38,202 - framework - ERROR - 用例保存失败,失败原因：[Errno 2] No such file or directory: 'E:\\python_project\\K8s_port_test\\output_file\\report\\20190513-210234测试用例结果.xlsx'
+2019-05-13 21:02:39,557 - framework - INFO - ----程序结束----
+2019-05-13 21:02:40,213 - framework - INFO - ----程序结束----
+2019-05-13 21:14:55,177 - framework - ERROR - 用例保存失败,失败原因：[Errno 2] No such file or directory: 'luo.xlsx'
+2019-05-13 21:15:59,946 - framework - ERROR - 用例保存失败,失败原因：
+2019-05-13 21:16:42,879 - framework - ERROR - 用例保存失败,失败原因：
+2019-05-13 21:19:00,337 - framework - ERROR - 用例保存失败,失败原因：
+2019-05-13 21:19:55,036 - framework - ERROR - 用例保存失败,失败原因：
+2019-05-13 21:25:38,848 - framework - INFO - 用例执行并保存为luo.xlsx成功
+2019-05-13 21:28:11,285 - framework - INFO - 用例执行并保存为E:\python_project\K8s_port_test\output_file\20190513-212808测试用例结果.xlsx成功
+2019-05-13 21:29:35,163 - framework - INFO - 用例执行并保存为E:\python_project\K8s_port_test\output_file\report\20190513-212924测试用例结果.xlsx成功
+2019-05-13 21:38:16,682 - framework - ERROR - 用例保存失败,失败原因：
+2019-05-13 21:39:18,563 - framework - INFO - 用例执行并保存为E:\python_project\K8s_port_test\output_file\report\20190513-213909测试用例结果.xlsx成功
+2019-05-13 21:39:21,251 - framework - INFO - ----邮件发送成功----
+2019-05-13 21:39:21,258 - framework - INFO - E:\python_project\K8s_port_test\output_file\report\20190513-213909测试用例结果.xlsx删除成功
+2019-05-13 21:39:21,258 - framework - INFO - ----程序结束----
+2019-05-13 21:52:15,556 - framework - INFO - 用例执行并保存为E:\python_project\K8s_port_test\output_file\report\20190513-215208测试用例结果.xlsx成功
+2019-05-13 21:52:18,214 - framework - INFO - ----邮件发送成功----
+2019-05-13 21:52:18,214 - framework - INFO - 处理旧的生成文件完成
+2019-05-13 21:52:18,214 - framework - INFO - ----程序结束----
+2019-05-13 21:57:51,899 - framework - INFO - 用例执行并保存为E:\python_project\K8s_port_test\output_file\report\20190513-215749测试用例结果.xlsx成功
+2019-05-13 21:57:54,660 - framework - INFO - ----邮件发送成功----
+2019-05-13 21:57:54,664 - framework - INFO - ----程序结束----
+2019-05-13 21:58:00,226 - framework - INFO - 用例执行并保存为E:\python_project\K8s_port_test\output_file\report\20190513-215758测试用例结果.xlsx成功
+2019-05-13 21:58:02,852 - framework - INFO - ----邮件发送成功----
+2019-05-13 21:58:02,857 - framework - INFO - 删除成功，文件目录：E:\python_project\K8s_port_test\output_file\report\20190513-212924测试用例结果.xlsx
+2019-05-13 21:58:02,859 - framework - INFO - ----程序结束----

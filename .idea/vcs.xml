@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../andfetion_automation_u2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../meetyou_automation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../meetyou_automation_pytest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../meetyou_automation_pytest_allure" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../python_port_auto" vcs="Git" />
+  </component>
+</project>

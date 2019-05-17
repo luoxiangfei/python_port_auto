@@ -1,0 +1,22 @@
+mysql:
+    host: 192.168.203.250      #数据库地址
+    port: 3306                 #数据库端口
+    user: cmicCrm              #数据库账号
+    passwd: cmicCrm#123        #密码
+    db: automation_test_data      #指定库名
+    sql: SELECT * FROM Fsms_port;       #sql语句
+excel:
+    name: 测试用例结果.xlsx
+    add: pagefile\测试用例结果.xlsx           #excel文件名称
+    sheet: 测试                             #excel标签页名称
+    sheet2: 测试2
+    sheet3: 测试3
+email:
+    addresser: 13981943447@139.com    #发送人地址
+    addressee:                        #收件人地址
+        - 290958890@qq.com
+        - 240080267@qq.com
+    smtp: smtp.139.com                #smtp地址
+    user: 13981943447@139.com         #发送邮箱账号
+    passwd: a13694245189                 #邮箱密码
+

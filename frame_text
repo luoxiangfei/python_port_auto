@@ -1,0 +1,18 @@
+接口自动化简易框架说明：
+common----共用模块
+            excel.py----excel文件操作模块
+            getYaml.py----获取yaml配置文件模块，包括数据库，excel，和邮件账号地址信息
+            LogInfo.py----日志打印模块，并把日志信息保存到输出文档下runlog.log
+            mysql_test.py----操作数据库模块
+            osCommand.py----os命令模块，删除指定文档
+            send_email.py----邮件处理模块，发送邮件
+output_file----输出文档
+            xlsx文件----输出测试报告
+            runlog.log----日志打印信息
+pagefile----配置文档
+            log.conf----日志配置文件
+            page.yaml----数据配置文件
+requestProt----接口请求文件
+            接口请求
+run.py----执行文件
+            执行文件

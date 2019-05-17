@@ -1,0 +1,6 @@
+logger_name: 'framework'
+log_file_name: 'meetyou_test.log'
+backup_count: 5
+console_output_level: 'INFO'
+file_output_level: 'DEBUG'
+formatter: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
