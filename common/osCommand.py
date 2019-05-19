@@ -8,25 +8,17 @@ from common.LogInfo import logger
 from common.data_config import OUTPUT_DIR
 
 def os_remove(filename):
+    '''os系统命令，删除文件操作方法'''
     if os.path.exists (filename):
         os.remove (filename)
         logger.info(filename+"删除成功")
     else:
         logger.error("失败，{}文件不存在".format(filename))
 
-def os_download(command):
-    os.system(command)
-
-def os_path():
-    path1=os.path.split (os.path.dirname (os.path.abspath (__file__)))[0]
-    return path1
-
-
 class DelDate:
     '''删除框架报告文件'''
     def del_dir(self,file_path,num):
         '''删除文件夹操作'''
-
         try:
             while True:
                 dir = os.listdir(file_path)
@@ -42,7 +34,6 @@ class DelDate:
             logger.error('删除文件失败{}'.format(e))
     def del_file(self,file_path,num):
         '''删除文件操作'''
-
         try:
             while True:
                 dir = os.listdir(file_path)

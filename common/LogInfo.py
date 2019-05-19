@@ -10,6 +10,7 @@ from common.data_config import PAGE_DIR,Config,OUTPUT_DIR
 log_config = Config('log_config.yaml')
 
 class Logger(object):
+    '''日志打印的类'''
     def __init__(self, logger_name=log_config.get('logger_name')):
         self.logger = logging.getLogger(logger_name)
         logging.root.setLevel(logging.NOTSET)

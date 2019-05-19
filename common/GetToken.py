@@ -6,6 +6,7 @@ import time
 from appium import webdriver
 import os
 class get_Token():
+    '''这个APP自动化获取token的类'''
     def __init__(self):
         de=os.popen("adb shell getprop ro.boot.serialno")
         ve = os.popen ("adb shell getprop ro.build.version.release")

@@ -10,8 +10,9 @@ from Crypto.PublicKey import RSA
 from Crypto.Signature import PKCS1_v1_5
 from Crypto.Hash import MD5
 class md5Page(object):
+    '''各类加密参数相关'''
     def strMD5(self,strNum):
-        '''时间戳MD5加密'''
+        '''MD5加密'''
         # 待加密信息
         m = hashlib.md5 ()
         m.update (strNum.encode("utf-8"))
@@ -22,7 +23,7 @@ class md5Page(object):
         s=random.randint(1,999999999999)
         return str(s)
     def shijian(self):
-        '''获取时间戳格式'''
+        '''获取当前时间格式为【20190519103440474】'''
         ct = time.time ()
         local_time = time.localtime (ct)
         data_head = time.strftime ("%Y-%m-%d %H:%M:%S", local_time)
@@ -32,6 +33,7 @@ class md5Page(object):
             '.', '')
         return stamp
     def time_str(self):
+        '''获取当前时间格式为【20190519103610】'''
         data_time=time.strftime("%Y%m%d%H%M%S")
         return data_time
     def strRSA(self,privateKey,data):
@@ -45,9 +47,10 @@ class md5Page(object):
         signature1 = str(signature, encoding="utf8")
         return signature1
     def strBase64(self,data):
+        '''字符串转换格式为base64'''
         encodeStrTest = base64.b64encode(bytes(str(data), encoding="utf-8"))
         base=str(encodeStrTest, encoding="utf-8")
         return base
 if __name__ == '__main__':
     M=md5Page()
-    M.strRSA("sdfsdfs","sdfsdfsd")
+    print(M.strBase64("luoxiangfei"))

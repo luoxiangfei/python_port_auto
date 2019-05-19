@@ -6,16 +6,16 @@
 import requests
 import json
 from common.MD5page import md5Page
-from common.data_config import YAML_DIR
+from common.data_config import PROT_YAML_DIR
 from common.getYaml import get_yaml
 class K8s_verify_code(object):
     '''发送短信接口'''
     def __init__(self):
         self.m = md5Page()
-        self.yaml = get_yaml(YAML_DIR)
+        self.yaml = get_yaml(PROT_YAML_DIR)
         self.time = self.m.time_str()
         #self.time = "20190404095149"
-        self.data = '{"appid":"e338fb6e73154efeafbf5f71e77611a0","code":"232306","phone":"13694245189"}'.replace(' ','')
+        self.data = '{"appid":"e338fb6e73154efeafbf5f71e77611a0","code":"161620","phone":"13694245189"}'.replace(' ','')
         #self.data = json.dumps({"appid":self.yaml["App-Id"],"phone":"13662460070","templateId":self.yaml["templateId"]})
     def __str__(self):
         pass

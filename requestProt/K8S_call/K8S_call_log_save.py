@@ -5,8 +5,6 @@
 
 import requests
 import json
-import os
-import urllib3
 import time
 from common.excel import Excel
 from common.data_config import PROT_YAML_DIR,TEST_DATA_DIR
@@ -29,17 +27,17 @@ class K8sCallLogSave(object):
         "通话日志保存接口请求"
         header={"sign":self.get_sign(data),"appId":self.yaml["appid"],"Content - Type": "application/x-www-form-urlencoded",
         }
-        data = {"cipherText":self.get_body(data)}
+        data = {'cipherText':self.get_body(data)}
         url=self.yaml["url"]
-        response = requests.post(url=url, headers=header, data=data)
-        res=json.loads(response.text)['msg']
+        response = requests.post(url=url, headers=header, data=data)  #把请求头，请求参数，和url地址带进来接口请求，返回值给response
+        res=json.loads(response.text)["msg"]    #把返回值转成字典格式然后取他的键'msg'，因为我这里知道了我需要的就是这个msg
         print(res)
-        time.sleep(1.5)
-        return res
+        # time.sleep(4)
+        return res                  #吧得到的数据返回出去
     def run(self,excel_data):
-        data_list=[]
-        for data_test in excel_data:
-            if int(data_test[0])==0:
+        data_list=[]        #定义要一个空列表
+        for data_test in excel_data:    #excel_data为测试数据，二维列表的形式
+            if int(data_test[0])==0:        #先判断第一行第一列为0的时候，直接在这 一行的最后增加一个测试结果
                 data_test.append("测试结果")
             else:
                 dict_data = {"caller": data_test[1], "callTime": data_test[2], "region": data_test[3],
@@ -54,12 +52,14 @@ class K8sCallLogSave(object):
                     dict_data.pop("time")
                 elif data_test[5] == '':
                     dict_data.pop("type")
-                result=self.call_log_dave_port(json.dumps(dict_data))
-                data_test.append(result)
-            data_list.append(data_test)
-        return data_list
+                result=self.call_log_dave_port(json.dumps(dict_data))   #这里为进行接口请求，
+                data_test.append(result)    #这里吧接口请求的结果写入到每行的最后一列
+            data_list.append(data_test)   #这里把生成最新的每一列插入到列表data_list中
+        return data_list                #这里吧生成的新二维列表返回出去
 if __name__ == '__main__':
     data = '{"callTime":"2019-04-16 00:00:00","caller":"13694245189","region":"333","time":1,"type":"1"}'
     t=K8sCallLogSave()
-    data1 = Excel().get_xls(r"{}/K8S_call_log_save_testdata/data.xlsx".format(TEST_DATA_DIR), "call_log_data")
-    print(t.run(data1))
+    data1 = Excel().get_xls(r"{}/K8S_call_log_save_testdata/data.xlsx".format(TEST_DATA_DIR), "call_log_data2")
+    # for i in data1:
+    #     print(i)
+    t.run(data1)

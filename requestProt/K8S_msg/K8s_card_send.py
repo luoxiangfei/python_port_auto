@@ -7,12 +7,12 @@ import requests
 import json
 from common.MD5page import md5Page
 from common.getYaml import get_yaml
-from common.data_config import YAML_DIR
+from common.data_config import PROT_YAML_DIR
 class K8sCardSend(object):
     '''发送短信接口'''
     def __init__(self):
         self.m = md5Page()
-        self.yaml = get_yaml(YAML_DIR)
+        self.yaml = get_yaml(PROT_YAML_DIR)
         self.data = '{"appId":"9b654e20983e4be0950ce66c6ab5aa64","callBackUrl":"http://card-consumer.meetyou1:22016/card-consumer",' \
                     '"cardDealerId":"063b7415e1424aa19217c822d0bf3be3","phone":"13694245189","uuid":"ae7285784f184b7ab7728121259c64b3"}'.replace(' ','')
         self.private_key="MIIBVQIBADANBgkqhkiG9w0BAQEFAASCAT8wggE7AgEAAkEAm0l+1pR23kj7eB3xQOwef6nDbTPPiODLMsUEFnQXBF7DcT783yqq30TnAl49oNwAGNgg2F4NfyQB0qWC" \

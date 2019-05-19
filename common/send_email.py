@@ -15,6 +15,7 @@ class SendEmail(object):
         self.user=user              #发送邮箱账号
         self.passwd=passwd          #邮箱密码
     def email_init(self,report,reportName):
+        '''邮件发送'''
         with open(report,'rb')as f:
             mail_body = f.read()
         # 创建一个带附件的邮件实例

@@ -7,6 +7,6 @@ App-Id: e338fb6e73154efeafbf5f71e77611a0
 templateId: 5ca474c9ba20288cedef9031
 
 call_log_save:                                #通话日志保存
-    url: http://mywx.zone139.com/call-log-api/callLog/save
+    url: http://k8s.meetyou1.com:30080/call-log-api/callLog/save
     privateKey: MIIBVgIBADANBgkqhkiG9w0BAQEFAASCAUAwggE8AgEAAkEAtTIFOZYxwOM9P80aiic+q+XfbE9cWOgACp5VW2utaVGI+D8JjeSOarvBu1xyLXvN3/HUBGs0WR+rG4G3KfbsOwIDAQABAkAay9bx+UBKYlDAiriODde63Df6cJIbo9O9vkSpTHdMx73XNFuVWPsnS87jVP4yxAvWIRWqQjS2Y7+EAA1sb2bBAiEA9V1bBpKcurC2USgY23qKe9n9hmvpWlMi4tCRyCC6DoMCIQC9DJ9DR6dTPm7uOIKfr5ur+654nUPcHujefJspWCO96QIhAMfgS8V363rddzd3bYBlO6iWtMMq5wYwkUupUghwOICXAiEAsSIIf+O9dhQDoJW2XqUN+YEiosTH9pHHo9+hCoYZRzECIQDByseYCROnRqRlmFO0TG2WPoeKd8kicG9ut56gluzTQQ==
     appid: 4defda065f4c11e99bea00ff818aeea5

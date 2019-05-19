@@ -4,6 +4,7 @@
 import pymysql
 from common.LogInfo import logger
 class Mysql(object):
+    '''mysql数据库操作'''
     def __init__(self,host,port,user,passwd,db):
         try:
             self.log=logger

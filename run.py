@@ -3,6 +3,8 @@
 # @Date  : 2019/2/24/024
 #
 import os
+# from pip._internal import main as install_requirements
+# install_requirements(['install', '-r', 'requirements.txt'])
 from common.excel import Excel
 from common.getYaml import get_yaml
 from common.LogInfo import logger
@@ -10,8 +12,6 @@ from common.osCommand import DelDate
 from common.send_email import SendEmail
 from common.timeDecorator import my_time
 from common.data_config import YAML_DIR,PAGE_DIR,OUTPUT_DIR,TEST_DATA_DIR
-# from pip._internal import main as install_requirements
-# install_requirements(['install', '-r', 'requirements.txt'])
 from requestProt.K8S_call.K8S_call_log_save import K8sCallLogSave
 import time
 
