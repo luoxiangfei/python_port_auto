@@ -1,4 +1,4 @@
-2019-05-17 11:32:06,683 - framework - INFO - 用例执行并保存为E:\python_project\K8s_port_test\output_file\report\20190517-113113测试用例结果.xlsx成功
-2019-05-17 11:32:09,519 - framework - INFO - ----邮件发送成功----
-2019-05-17 11:32:09,524 - framework - INFO - 删除成功，文件目录：E:\python_project\K8s_port_test\output_file\report\20190513-215208测试用例结果.xlsx
-2019-05-17 11:32:09,525 - framework - INFO - ----程序结束----
+2019-07-15 17:06:07,432 - framework - INFO - 数据库【192.168.203.202】连接成功
+2019-07-15 17:07:21,345 - framework - INFO - 数据库【192.168.203.202】连接成功
+2019-07-15 17:09:23,671 - framework - INFO - 数据库【192.168.203.202】连接成功
+2019-07-15 17:10:44,656 - framework - INFO - 数据库【192.168.203.202】连接成功

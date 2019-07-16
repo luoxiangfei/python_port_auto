@@ -2,30 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f948dd15-762c-4a6b-92cb-d2a16482499a" name="Default" comment="日常更新--5.9---增加unittest测试框架基础配置">
+      <change afterPath="$PROJECT_DIR$/requestProt/K8S_many_phone/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requestProt/K8S_many_phone/found_call.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requestProt/K8S_number_segment/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requestProt/K8S_number_segment/refer_number_segment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requestProt/K8S_open/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requestProt/K8S_open/k8s_open_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requestProt/K8S_open/k8s_open_select.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requestProt/andfans_activity/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requestProt/andfans_activity/operation_query.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requestProt/andfans_activity/receive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requestProt/andfans_activity/send_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requestProt/andfans_activity/service_query.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requestProt/new_send_msg/BJL_send_msg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requestProt/new_send_msg/XLZ_send_msg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requestProt/new_send_msg/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meetyou_automation/config/ele_page/resource_mapping_meetyou_V3.8.0.0625_official_2019-06-25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meetyou_automation/config/ele_page/resource_mapping_meetyou_V3.8.0.0701_official_2019-07-01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meetyou_automation/test/case/4main_function/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meetyou_automation/test/case/4main_function/test_main_function_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/K8s_port_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/K8s_port_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/GetToken.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/GetToken.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/LogInfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/LogInfo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/MD5page.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/MD5page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/data_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/data_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/getYaml.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/getYaml.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/mysql_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/mysql_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/osCommand.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/osCommand.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/send_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/send_email.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output_file/meetyou_test.log" beforeDir="false" afterPath="$PROJECT_DIR$/output_file/meetyou_test.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_file/report/20190513-215208测试用例结果.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_file/report/20190513-215749测试用例结果.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_file/report/20190513-215758测试用例结果.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pagefile/port_data.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pagefile/port_data.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagefile/test_data/K8S_call_log_save_testdata/data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/pagefile/test_data/K8S_call_log_save_testdata/data.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requestProt/K8S_call/K8S_call_log_save.py" beforeDir="false" afterPath="$PROJECT_DIR$/requestProt/K8S_call/K8S_call_log_save.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requestProt/K8S_msg/K8s_card_send.py" beforeDir="false" afterPath="$PROJECT_DIR$/requestProt/K8S_msg/K8s_card_send.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requestProt/K8S_msg/K8s_send_sms.py" beforeDir="false" afterPath="$PROJECT_DIR$/requestProt/K8S_msg/K8s_send_sms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requestProt/K8S_msg/K8s_verify_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/requestProt/K8S_msg/K8s_verify_code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requestProt/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/thread_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../andfetion_automation_u2/tests/test_case/test_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../andfetion_automation_u2/tests/test_case/test_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../meetyou_automation/main_meetyou.py" beforeDir="false" afterPath="$PROJECT_DIR$/../meetyou_automation/main_meetyou.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../meetyou_automation/config/desired_capablities_config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../meetyou_automation/config/desired_capablities_config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../meetyou_automation/config/element_config_new.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../meetyou_automation/config/element_config_new.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../meetyou_automation/test/page/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../meetyou_automation/test/page/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../meetyou_automation/test/page/call/call_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/../meetyou_automation/test/page/call/call_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../meetyou_automation/test/page/common/home_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/../meetyou_automation/test/page/common/home_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../meetyou_automation/test/page/login/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/../meetyou_automation/test/page/login/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../meetyou_automation/test/page/me/setting_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/../meetyou_automation/test/page/me/setting_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../meetyou_automation/test/suite/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/../meetyou_automation/test/suite/driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../meetyou_automation/test/suite/get_phone.py" beforeDir="false" afterPath="$PROJECT_DIR$/../meetyou_automation/test/suite/get_phone.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../meetyou_automation/utils/get_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/../meetyou_automation/utils/get_code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../meetyou_automation/utils/get_element.py" beforeDir="false" afterPath="$PROJECT_DIR$/../meetyou_automation/utils/get_element.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../meetyou_automation_pytest_allure/log/meetyou_test.log" beforeDir="false" afterPath="$PROJECT_DIR$/../meetyou_automation_pytest_allure/log/meetyou_test.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../meetyou_automation_pytest_allure/log/start_appium_log/20190510----4725.log" beforeDir="false" afterPath="$PROJECT_DIR$/../meetyou_automation_pytest_allure/log/start_appium_log/20190510----4725.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../meetyou_automation_pytest_allure/main_meetyou.py" beforeDir="false" afterPath="$PROJECT_DIR$/../meetyou_automation_pytest_allure/main_meetyou.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../meetyou_automation_pytest_allure/test/case/1login/report/xml/0bb91b6e-579b-4cae-8cc0-626dc11079a8-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../meetyou_automation_pytest_allure/test/case/1login/report/xml/12c804d0-d9e3-43b0-9e16-633ef9261d33-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../meetyou_automation_pytest_allure/test/case/1login/report/xml/4d0ef837-05b0-4714-a516-e9a8e557f690-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../meetyou_automation_pytest_allure/test/case/1login/report/xml/8fbfa816-66b4-49b5-b23c-f2294168416c-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../meetyou_automation_pytest_allure/test/case/1login/report/xml/aa677865-75fc-4fd7-ab87-f1f4dd85691d-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../meetyou_automation_pytest_allure/test/case/1login/report/xml/be670d4f-da46-42e2-91d7-8bc20067a8e1-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../meetyou_automation_pytest_allure/test/case/1login/report/xml/f1adeb45-7744-4642-ade7-0d145db31c93-attachment.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../meetyou_automation_pytest_allure/test/case/2call/test_video_call.py" beforeDir="false" afterPath="$PROJECT_DIR$/../meetyou_automation_pytest_allure/test/case/2call/test_video_call.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../meetyou_automation_pytest_allure/test/page/common/personal_details_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/../meetyou_automation_pytest_allure/test/page/common/personal_details_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../meetyou_automation_pytest_allure/test/page/common/video_call_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/../meetyou_automation_pytest_allure/test/page/common/video_call_page.py" afterDir="false" />
@@ -41,102 +75,108 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="K8s_port_test" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="K8S_call_log_save.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requestProt/K8S_call/K8S_call_log_save.py">
+      <file leaf-file-name="send_code.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requestProt/andfans_activity/send_code.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="37" selection-start-line="37" selection-end-line="57" selection-end-column="56" />
+            <state relative-caret-position="279">
+              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding>
-                <element signature="e#82#97#0" expanded="true" />
+                <element signature="e#72#87#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MD5page.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/MD5page.py">
+      <file leaf-file-name="XLZ_send_msg.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requestProt/new_send_msg/XLZ_send_msg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+            <state relative-caret-position="726">
+              <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mysql_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/mysql_test.py">
+      <file leaf-file-name="port_data.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pagefile/port_data.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-528">
-              <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+            <state relative-caret-position="858">
+              <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="osCommand.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/osCommand.py">
+      <file leaf-file-name="service_query.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requestProt/andfans_activity/service_query.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-243">
-              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="send_email.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/send_email.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="K8s_card_send.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requestProt/K8S_msg/K8s_card_send.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="16" column="91" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="91" />
+            <state relative-caret-position="103">
+              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="59" />
               <folding>
-                <element signature="e#82#97#0" expanded="true" />
+                <element signature="e#72#87#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="K8s_send_sms.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/requestProt/K8S_msg/K8s_send_sms.py">
+      <file leaf-file-name="receive.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requestProt/andfans_activity/receive.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="685">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="279">
+              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding>
-                <element signature="e#81#96#0" expanded="true" />
+                <element signature="e#72#87#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data_config.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/data_config.py">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../DjangoProject/blog/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="55" />
-              <folding>
-                <element signature="e#82#91#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="2684">
+              <caret line="122" selection-start-line="122" selection-end-line="122" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Thread.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/Thread.py">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../DjangoProject/blog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-133" />
+            <state relative-caret-position="418">
+              <caret line="21" selection-start-line="21" selection-end-line="22" />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="timeDecorator.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/timeDecorator.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="operation_query.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requestProt/andfans_activity/operation_query.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../DjangoProject/ly/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="0001_initial.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../DjangoProject/ly/migrations/0001_initial.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -150,79 +190,110 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>[</find>
-      <find>]</find>
-      <find>验证码</find>
-      <find>519707</find>
+      <find>com.cmic.college.R.id.ae8</find>
+      <find>com.cmic.college.R.id.afl</find>
+      <find>com.cmic.college.R.id.aey</find>
+      <find>com.cmic.college.R.id.afb</find>
+      <find>com.cmic.college.R.id.aen</find>
+      <find>com.cmic.college.R.id.ae7</find>
+      <find>com.cmic.college.R.id.afe</find>
+      <find>com.cmic.college.R.id.qg</find>
+      <find>com.cmic.college.R.id.afo</find>
+      <find>com.cmic.college.R.id.il</find>
+      <find>com.cmic.college.R.id.c5</find>
+      <find>com.cmic.college.R.id.c7</find>
+      <find>')</find>
+      <find>profile_photo</find>
+      <find>aew</find>
+      <find>ae8</find>
+      <find>qq</find>
+      <find>ivVideoAnswer</find>
+      <find>tvTitle</find>
+      <find>ph</find>
+      <find>com.cmic.college.R.id.ph</find>
+      <find>com.cmic.college.R.id.pu</find>
+      <find>R.id.mi</find>
+      <find>id.ag5</find>
+      <find>agreement_text</find>
+      <find>akd</find>
+      <find>id.mi</find>
+      <find>ag5</find>
+      <find>id.aq</find>
+      <find>quit_pop</find>
     </findStrings>
     <replaceStrings>
       <replace>】</replace>
+      <replace>:</replace>
+      <replace>yaml</replace>
+      <replace>com.cmic.college:id</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../meetyou_automation/test/suite/unittest_page.py" />
-        <option value="$PROJECT_DIR$/../meetyou_automation_pytest/test/case/1login/test_login_1.py" />
-        <option value="$PROJECT_DIR$/../meetyou_automation_pytest/test/case/2call/test_video_call.py" />
-        <option value="$PROJECT_DIR$/../meetyou_automation_pytest_allure/test/page/common/personal_details_page.py" />
-        <option value="$PROJECT_DIR$/../meetyou_automation_pytest_allure/test/page/common/video_call_page.py" />
-        <option value="$PROJECT_DIR$/../meetyou_automation_pytest_allure/test/case/2call/test_video_call.py" />
-        <option value="$PROJECT_DIR$/../meetyou_automation_pytest_allure/test/page/login/login.py" />
-        <option value="$PROJECT_DIR$/../meetyou_automation_pytest_allure/utils/config.py" />
-        <option value="$PROJECT_DIR$/../meetyou_automation/utils/log.py" />
-        <option value="$PROJECT_DIR$/../meetyou_automation/utils/dis_report.py" />
-        <option value="$PROJECT_DIR$/../meetyou_automation/test/suite/get_test_suite.py" />
-        <option value="$PROJECT_DIR$/../python/其他/获取短信验证码.py" />
-        <option value="$PROJECT_DIR$/../meetyou_automation/test/suite/driver.py" />
-        <option value="$PROJECT_DIR$/../meetyou_automation/utils/take_uiautomator_xml.py" />
-        <option value="$PROJECT_DIR$/../meetyou_automation/test/suite/get_phone.py" />
-        <option value="$PROJECT_DIR$/../python/基础/python下载文件保存/APK_1.py" />
-        <option value="$PROJECT_DIR$/../meetyou_automation/test/page/me/me_view.py" />
-        <option value="$PROJECT_DIR$/../meetyou_automation/test/page/me/edit_user_profile.py" />
-        <option value="$PROJECT_DIR$/../meetyou_automation/test/page/me/setting_page.py" />
-        <option value="$PROJECT_DIR$/../meetyou_automation/test/case/3me/test_me_1.py" />
+        <option value="$PROJECT_DIR$/../meetyou_automation/test/case/1login/test_login_1.py" />
         <option value="$PROJECT_DIR$/../meetyou_automation/test/page/common/video_call_page.py" />
         <option value="$PROJECT_DIR$/../meetyou_automation/test/case/2call/test_video_call.py" />
-        <option value="$PROJECT_DIR$/../meetyou_automation_pytest_allure/test/suite/get_test_suite.py" />
-        <option value="$PROJECT_DIR$/../meetyou_automation_pytest_allure/main_meetyou.py" />
-        <option value="$PROJECT_DIR$/../meetyou_automation/utils/config.py" />
-        <option value="$PROJECT_DIR$/../meetyou_automation/utils/expected_conditions.py" />
-        <option value="$PROJECT_DIR$/../meetyou_automation/utils/HTMLTestRunner.py" />
-        <option value="$PROJECT_DIR$/../meetyou_automation/utils/zip_file.py" />
+        <option value="$PROJECT_DIR$/../meetyou_automation/test/page/common/personal_details_page.py" />
+        <option value="$PROJECT_DIR$/../meetyou_automation/test/page/add_list/home_page.py" />
+        <option value="$PROJECT_DIR$/../meetyou_automation/test/case/3me/test_me_1.py" />
         <option value="$PROJECT_DIR$/../meetyou_automation/test/suite/mobile_operating.py" />
+        <option value="$PROJECT_DIR$/../meetyou_automation/utils/take_uiautomator_xml.py" />
+        <option value="$PROJECT_DIR$/../python/常用模块/时间timel/time2.py" />
+        <option value="$PROJECT_DIR$/../python/自动化测试/WEB_ZD/wifi_connect.py" />
+        <option value="$PROJECT_DIR$/common/GetToken.py" />
+        <option value="$PROJECT_DIR$/../python/自动化测试/接口自动化/不限时长成员管理接口/回呼成员.py" />
+        <option value="$PROJECT_DIR$/requestProt/K8S_number_segment/refer_number_segment.py" />
+        <option value="$PROJECT_DIR$/../meetyou_automation/test/suite/driver.py" />
+        <option value="$PROJECT_DIR$/../meetyou_automation/test/suite/get_phone.py" />
         <option value="$PROJECT_DIR$/../meetyou_automation/test/page/__init__.py" />
+        <option value="$PROJECT_DIR$/../meetyou_automation/test/page/me/setting_page.py" />
+        <option value="$PROJECT_DIR$/../meetyou_automation/utils/get_code.py" />
+        <option value="$PROJECT_DIR$/../python/自动化测试/APP_ZD/appium_test/Appium连接.py" />
+        <option value="$PROJECT_DIR$/../meetyou_automation/utils/get_element.py" />
+        <option value="$PROJECT_DIR$/../meetyou_automation/test/page/call/call_page.py" />
+        <option value="$PROJECT_DIR$/../meetyou_automation/config/element_config_new.yaml" />
+        <option value="$PROJECT_DIR$/../meetyou_automation/test/page/common/home_view.py" />
         <option value="$PROJECT_DIR$/../meetyou_automation/test/page/login/login.py" />
         <option value="$PROJECT_DIR$/../meetyou_automation/config/desired_capablities_config.yaml" />
-        <option value="$PROJECT_DIR$/../meetyou_automation/test/case/1login/test_login_1.py" />
-        <option value="$PROJECT_DIR$/pagefile/page.yaml" />
-        <option value="$PROJECT_DIR$/run.py" />
-        <option value="$PROJECT_DIR$/requestProt/K8S_msg/K8s_card_send.py" />
-        <option value="$PROJECT_DIR$/../meetyou_automation/main_meetyou.py" />
-        <option value="$PROJECT_DIR$/pagefile/port_data.yaml" />
-        <option value="$PROJECT_DIR$/requestProt/K8S_msg/K8s_verify_code.py" />
-        <option value="$PROJECT_DIR$/../python/自动化测试/接口自动化/语音转留言/yuyin_2.py" />
-        <option value="$PROJECT_DIR$/common/data_config.py" />
-        <option value="$PROJECT_DIR$/common/excel.py" />
-        <option value="$PROJECT_DIR$/common/GetToken.py" />
-        <option value="$PROJECT_DIR$/common/getYaml.py" />
-        <option value="$PROJECT_DIR$/common/LogInfo.py" />
-        <option value="$PROJECT_DIR$/common/MD5page.py" />
-        <option value="$PROJECT_DIR$/common/mysql_test.py" />
-        <option value="$PROJECT_DIR$/common/osCommand.py" />
-        <option value="$PROJECT_DIR$/common/send_email.py" />
-        <option value="$PROJECT_DIR$/requestProt/K8S_call/K8S_call_log_save.py" />
+        <option value="$PROJECT_DIR$/../meetyou_automation/test/case/4main_function/test_main_function_1.py" />
+        <option value="$PROJECT_DIR$/requestProt/new_send_msg/send_msg.py" />
         <option value="$PROJECT_DIR$/requestProt/K8S_msg/K8s_send_sms.py" />
+        <option value="$PROJECT_DIR$/../python/常用模块/MD5加密/RSA_new.py" />
+        <option value="$PROJECT_DIR$/../python/常用模块/MD5加密/RSA1.py" />
+        <option value="$PROJECT_DIR$/common/MD5page.py" />
+        <option value="$PROJECT_DIR$/../python/其他/字符串.py" />
+        <option value="$PROJECT_DIR$/requestProt/new_send_msg/BJL_send_msg.py" />
+        <option value="$PROJECT_DIR$/../python/其他/练习题/test1.py" />
+        <option value="$PROJECT_DIR$/../python/基础/列表内字典排序.py" />
+        <option value="$PROJECT_DIR$/../python/基础/列表推导式.py" />
+        <option value="$PROJECT_DIR$/../python/基础/生成器，闭包，装饰器/斐波拉契.py" />
+        <option value="$PROJECT_DIR$/../DjangoProject/dj.py" />
+        <option value="$PROJECT_DIR$/../python/其他/test_1.py" />
+        <option value="$PROJECT_DIR$/common/mysql_test.py" />
+        <option value="$PROJECT_DIR$/../python/常用模块/时间timel/日期递增.py" />
+        <option value="$PROJECT_DIR$/requestProt/K8S_open/k8s_open_account.py" />
+        <option value="$PROJECT_DIR$/pagefile/port_data.yaml" />
+        <option value="$PROJECT_DIR$/requestProt/new_send_msg/XLZ_send_msg.py" />
+        <option value="$PROJECT_DIR$/../DjangoProject/ly/models.py" />
+        <option value="$PROJECT_DIR$/../DjangoProject/blog/settings.py" />
+        <option value="$PROJECT_DIR$/../DjangoProject/blog/urls.py" />
+        <option value="$PROJECT_DIR$/requestProt/andfans_activity/send_code.py" />
+        <option value="$PROJECT_DIR$/requestProt/andfans_activity/receive.py" />
+        <option value="$PROJECT_DIR$/requestProt/andfans_activity/service_query.py" />
+        <option value="$PROJECT_DIR$/requestProt/andfans_activity/operation_query.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="175" />
-    <option name="width" value="1750" />
-    <option name="height" value="970" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -230,7 +301,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,79 +311,43 @@
             <path>
               <item name="K8s_port_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="K8s_port_test" type="462c0819:PsiDirectoryNode" />
-              <item name="pagefile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="K8s_port_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="K8s_port_test" type="462c0819:PsiDirectoryNode" />
-              <item name="pagefile" type="462c0819:PsiDirectoryNode" />
-              <item name="test_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="K8s_port_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="K8s_port_test" type="462c0819:PsiDirectoryNode" />
-              <item name="pagefile" type="462c0819:PsiDirectoryNode" />
-              <item name="test_data" type="462c0819:PsiDirectoryNode" />
-              <item name="K8S_msg_card_testdata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="K8s_port_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="K8s_port_test" type="462c0819:PsiDirectoryNode" />
               <item name="requestProt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="K8s_port_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="K8s_port_test" type="462c0819:PsiDirectoryNode" />
               <item name="requestProt" type="462c0819:PsiDirectoryNode" />
-              <item name="K8S_call" type="462c0819:PsiDirectoryNode" />
+              <item name="andfans_activity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="K8s_port_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="K8s_port_test" type="462c0819:PsiDirectoryNode" />
-              <item name="requestProt" type="462c0819:PsiDirectoryNode" />
-              <item name="K8S_msg" type="462c0819:PsiDirectoryNode" />
+              <item name="DjangoProject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="K8s_port_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meetyou_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="DjangoProject" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="K8s_port_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="DjangoProject" type="462c0819:PsiDirectoryNode" />
+              <item name="ly" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="K8s_port_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化测试" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="K8s_port_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化测试" type="462c0819:PsiDirectoryNode" />
-              <item name="接口自动化" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="K8s_port_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化测试" type="462c0819:PsiDirectoryNode" />
-              <item name="接口自动化" type="462c0819:PsiDirectoryNode" />
-              <item name="语音转留言" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="K8s_port_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化测试" type="462c0819:PsiDirectoryNode" />
-              <item name="接口自动化" type="462c0819:PsiDirectoryNode" />
-              <item name="超级短信接口" type="462c0819:PsiDirectoryNode" />
+              <item name="DjangoProject" type="462c0819:PsiDirectoryNode" />
+              <item name="ly" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/python_environment/Django" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -326,12 +360,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\python_project\meetyou_automation\config\ele_page" />
+      <recent name="E:\python_project\meetyou_automation\config" />
       <recent name="E:\python_project\meetyou_automation\utils" />
       <recent name="E:\python_project\meetyou_automation_pytest\test\case\1login\report" />
       <recent name="E:\python_project\meetyou_automation_pytest" />
-      <recent name="E:\python_project\meetyou_automation_pytest\test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\python_project\meetyou_automation\config\ele_page" />
       <recent name="E:\python_project\K8s_port_test\pagefile\test_data\K8S_call_log_save_testdata" />
       <recent name="E:\python_project\meetyou_automation\report\html_" />
       <recent name="E:\python_project\meetyou_automation\log\meetyou_test_log" />
@@ -350,26 +386,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.K8s_send_sms">
-    <configuration name="K8S_call_log_save" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="K8s_port_test" />
+  <component name="RunManager" selected="Python.operation_query">
+    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DjangoProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/requestProt/K8S_call" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../DjangoProject/ly" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/requestProt/K8S_call/K8S_call_log_save.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../DjangoProject/ly/models.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="K8s_send_sms" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="operation_query" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="K8s_port_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -377,17 +413,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/requestProt/K8S_msg" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/requestProt/andfans_activity" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/requestProt/K8S_msg/K8s_send_sms.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/requestProt/andfans_activity/operation_query.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="MD5page" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="receive" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="K8s_port_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -395,17 +431,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/requestProt/andfans_activity" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/MD5page.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/requestProt/andfans_activity/receive.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="data_config" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="send_code" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="K8s_port_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -413,17 +449,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/requestProt/andfans_activity" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/data_config.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/requestProt/andfans_activity/send_code.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="getYaml" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="service_query" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="K8s_port_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -431,30 +467,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/requestProt/andfans_activity" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/getYaml.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/requestProt/andfans_activity/service_query.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.K8S_call_log_save" />
-      <item itemvalue="Python.data_config" />
-      <item itemvalue="Python.getYaml" />
-      <item itemvalue="Python.MD5page" />
-      <item itemvalue="Python.K8s_send_sms" />
+      <item itemvalue="Python.receive" />
+      <item itemvalue="Python.models" />
+      <item itemvalue="Python.send_code" />
+      <item itemvalue="Python.service_query" />
+      <item itemvalue="Python.operation_query" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.K8s_send_sms" />
-        <item itemvalue="Python.K8S_call_log_save" />
-        <item itemvalue="Python.MD5page" />
-        <item itemvalue="Python.getYaml" />
-        <item itemvalue="Python.data_config" />
+        <item itemvalue="Python.operation_query" />
+        <item itemvalue="Python.service_query" />
+        <item itemvalue="Python.receive" />
+        <item itemvalue="Python.send_code" />
+        <item itemvalue="Python.models" />
       </list>
     </recent_temporary>
   </component>
@@ -574,39 +610,95 @@
       <option name="project" value="LOCAL" />
       <updated>1558061455772</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="日常更新--详细说明">
+      <created>1558242620111</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1558242620112</updated>
+    </task>
+    <task id="LOCAL-00017" summary="更新元素修改---并改做yaml配置元素">
+      <created>1558951445915</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1558951445915</updated>
+    </task>
+    <task id="LOCAL-00018" summary="日常更新--5.27更改元素配置">
+      <created>1558972199437</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1558972199437</updated>
+    </task>
+    <task id="LOCAL-00019" summary="日常更新--5.9---复数元素定位，以及点击操作！">
+      <created>1559059951225</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1559059951225</updated>
+    </task>
+    <task id="LOCAL-00020" summary="日常优化----手机操作模块！">
+      <created>1559187880525</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1559187880525</updated>
+    </task>
+    <task id="LOCAL-00021" summary="增加版本元素配置表">
+      <created>1560224156869</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1560224156869</updated>
+    </task>
+    <task id="LOCAL-00022" summary="日常更新--更新包6.04（3），和用例">
+      <created>1560436651250</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1560436651250</updated>
+    </task>
+    <task id="LOCAL-00023" summary="日常更新--6.19,更新6.4版本app配置，以及系统adb方法点击滑动">
+      <created>1560938366476</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1560938366476</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_video_call_VideoCallTest_test_video_1 - 2019.05.15 at 13h 55m 32s.xml">
-      <configuration name="Unittests for test_video_call.VideoCallTest.test_video_1" configurationId="tests" />
+    <history-entry file="Unittests_for_test_main_function_1_Login_1 - 2019.07.02 at 14h 34m 46s.xml">
+      <configuration name="Unittests for test_main_function_1.Login_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_video_call_VideoCallTest_test_video_1 - 2019.05.15 at 13h 58m 19s.xml">
-      <configuration name="Unittests for test_video_call.VideoCallTest.test_video_1" configurationId="tests" />
+    <history-entry file="Unittests_for_test_main_function_1_Login_1_test_login_1 - 2019.07.02 at 14h 36m 19s.xml">
+      <configuration name="Unittests for test_main_function_1.Login_1.test_login_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_video_call_VideoCallTest_test_video_1 - 2019.05.15 at 14h 01m 28s.xml">
-      <configuration name="Unittests for test_video_call.VideoCallTest.test_video_1" configurationId="tests" />
+    <history-entry file="Unittests_for_test_main_function_1_Login_1_test_login_1 - 2019.07.02 at 14h 38m 37s.xml">
+      <configuration name="Unittests for test_main_function_1.Login_1.test_login_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_video_call_VideoCallTest_test_video_1 - 2019.05.15 at 14h 03m 54s.xml">
-      <configuration name="Unittests for test_video_call.VideoCallTest.test_video_1" configurationId="tests" />
+    <history-entry file="Unittests_for_test_main_function_1_Login_1_test_login_2 - 2019.07.02 at 14h 54m 09s.xml">
+      <configuration name="Unittests for test_main_function_1.Login_1.test_login_2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_video_call_VideoCallTest_test_video_1 - 2019.05.15 at 14h 06m 51s.xml">
-      <configuration name="Unittests for test_video_call.VideoCallTest.test_video_1" configurationId="tests" />
+    <history-entry file="Unittests_for_test_main_function_1_Login_1_test_login_3 - 2019.07.02 at 15h 28m 42s.xml">
+      <configuration name="Unittests for test_main_function_1.Login_1.test_login_3" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_video_call_VideoCallTest_test_video_1 - 2019.05.15 at 14h 12m 42s.xml">
-      <configuration name="Unittests for test_video_call.VideoCallTest.test_video_1" configurationId="tests" />
+    <history-entry file="Unittests_for_test_main_function_1_Login_1_test_login_3 - 2019.07.02 at 15h 35m 37s.xml">
+      <configuration name="Unittests for test_main_function_1.Login_1.test_login_3" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_login_1_py - 2019.05.15 at 14h 37m 39s.xml">
-      <configuration name="Unittests in test_login_1.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_main_function_1_Login_1_test_login_3 - 2019.07.02 at 15h 46m 14s.xml">
+      <configuration name="Unittests for test_main_function_1.Login_1.test_login_3" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_video_call_VideoCallTest_test_video_1 - 2019.05.15 at 16h 06m 55s.xml">
-      <configuration name="Unittests for test_video_call.VideoCallTest.test_video_1" configurationId="tests" />
+    <history-entry file="Unittests_for_test_main_function_1_Login_1_test_login_3 - 2019.07.02 at 15h 55m 47s.xml">
+      <configuration name="Unittests for test_main_function_1.Login_1.test_login_3" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_video_call_VideoCallTest_test_video_1 - 2019.05.15 at 16h 20m 39s.xml">
-      <configuration name="Unittests for test_video_call.VideoCallTest.test_video_1" configurationId="tests" />
+    <history-entry file="Unittests_for_test_main_function_1_Login_1_test_login_5 - 2019.07.02 at 16h 19m 25s.xml">
+      <configuration name="Unittests for test_main_function_1.Login_1.test_login_5" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_video_call_VideoCallTest_test_video_1 - 2019.05.15 at 16h 32m 56s.xml">
-      <configuration name="Unittests for test_video_call.VideoCallTest.test_video_1" configurationId="tests" />
+    <history-entry file="Unittests_for_test_main_function_1_Login_1_test_login_5 - 2019.07.02 at 16h 20m 24s.xml">
+      <configuration name="Unittests for test_main_function_1.Login_1.test_login_5" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -621,16 +713,16 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49725273" visible="true" weight="0.18031704" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.82879376" visible="true" weight="0.2351387" />
       <window_info anchor="bottom" id="TODO" order="9" sideWeight="0.4993395" weight="0.32952926" />
-      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.18097754" side_tool="true" visible="true" weight="0.2339515" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.18890357" side_tool="true" weight="0.5805991" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32952926" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32952926" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8190225" visible="true" weight="0.2339515" />
-      <window_info id="Structure" order="1" sideWeight="0.50274724" side_tool="true" weight="0.24042273" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.7331572" weight="0.3067047" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3109843" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.81109643" weight="0.34236804" />
+      <window_info id="Structure" order="1" sideWeight="0.17120622" side_tool="true" weight="0.21268164" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.7318362" weight="0.3133903" />
+      <window_info id="Favorites" order="2" sideWeight="0.16778524" side_tool="true" weight="0.21268164" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3951498" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -685,7 +777,15 @@
     <MESSAGE value="日常更新--5.15  更新APK文件适配" />
     <MESSAGE value="第一次上传" />
     <MESSAGE value="日常更新--5.17" />
-    <option name="LAST_COMMIT_MESSAGE" value="日常更新--5.17" />
+    <MESSAGE value="日常更新--详细说明" />
+    <MESSAGE value="更新元素修改---并改做yaml配置元素" />
+    <MESSAGE value="日常更新--5.27更改元素配置" />
+    <MESSAGE value="日常更新--5.9---复数元素定位，以及点击操作！" />
+    <MESSAGE value="日常优化----手机操作模块！" />
+    <MESSAGE value="增加版本元素配置表" />
+    <MESSAGE value="日常更新--更新包6.04（3），和用例" />
+    <MESSAGE value="日常更新--6.19,更新6.4版本app配置，以及系统adb方法点击滑动" />
+    <option name="LAST_COMMIT_MESSAGE" value="日常更新--6.19,更新6.4版本app配置，以及系统adb方法点击滑动" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -699,374 +799,338 @@
           <line>3</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../python/自动化测试/接口自动化/chaoji_duanxin.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../python/其他/练习题/test1.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="9" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../meetyou_automation/utils/log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="47" column="15" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="15" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../meetyou_automation/report/picture_save/20190702/141945.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../meetyou_automation/utils/mail.py">
+    <entry file="file://$PROJECT_DIR$/../meetyou_automation/test/page/call/call_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="40" column="89" selection-start-line="40" selection-start-column="81" selection-end-line="40" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../meetyou_automation/utils/take_uiautomator_xml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../meetyou_automation/utils/zip_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../meetyou_automation/config/mail_config.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../meetyou_automation/test/page/common/video_call_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-455">
-          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        <state relative-caret-position="2442">
+          <caret line="115" column="26" selection-start-line="115" selection-start-column="8" selection-end-line="115" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../meetyou_automation/test/suite/unittest_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+        <state relative-caret-position="-383" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../meetyou_automation/config/element_config_new.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../meetyou_automation/data/me_user_profile.yaml">
+    <entry file="file://$PROJECT_DIR$/../meetyou_automation/test/page/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../meetyou_automation/test/page/add_list/home_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-224">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python/自动化测试/APP_ZD/appium_test/滑动操作.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="59" column="40" lean-forward="true" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../meetyou_automation/test/suite/driver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../meetyou_automation/test/case/2call/test_video_call.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="18" column="72" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../meetyou_automation/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../meetyou_automation/test/suite/mobile_operating.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="109" selection-start-line="109" selection-end-line="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../meetyou_automation/test/suite/get_phone.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="66" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../meetyou_automation/report/html_/20190515-113855--report.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../meetyou_automation_pytest_allure/test/case/1login/test_login_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336">
-          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../meetyou_automation_pytest_allure/main_meetyou.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../meetyou_automation/config/desired_capablities_config.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="868">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../meetyou_automation/test/case/1login/test_login_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../meetyou_automation/utils/HTMLTestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2324">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../meetyou_automation/test/suite/get_test_suite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="8" column="64" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="64" />
+        <state relative-caret-position="726">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../meetyou_automation/test/page/login/login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+        <state relative-caret-position="770">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pagefile/page.yaml">
+    <entry file="file://$PROJECT_DIR$/../meetyou_automation/test/suite/mobile_operating.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="198" selection-start-line="198" selection-end-line="199" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../meetyou_automation/utils/get_element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../meetyou_automation/test/suite/get_phone.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="70" column="25" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../meetyou_automation/test/case/3me/test_me_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../meetyou_automation/test/page/me/me_view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../meetyou_automation/config/desired_capablities_config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="57" column="12" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/python_environment/APP_auto/Lib/site-packages/appium/webdriver/extensions/activities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../meetyou_automation/test/case/4main_function/test_main_function_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python/常用模块/MD5加密/RSA.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <caret selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/../python/常用模块/MD5加密/RSA1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        <state relative-caret-position="308">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../meetyou_automation/test/case/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="13" column="51" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../meetyou_automation/test/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../meetyou_automation/test/page/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-226">
-          <caret line="59" column="19" lean-forward="true" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../meetyou_automation/main_meetyou.py">
+    <entry file="file://$PROJECT_DIR$/../python/常用模块/MD5加密/RSA_new.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pagefile/port_data.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python/自动化测试/接口自动化/mianliu_1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python/自动化测试/接口自动化/mianliu_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1672">
-          <caret line="80" column="26" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requestProt/K8S_msg/K8s_verify_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="e#81#96#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python/自动化测试/接口自动化/kefu_jiekou_3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2376">
-          <caret line="114" column="49" selection-start-line="114" selection-start-column="39" selection-end-line="114" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python/自动化测试/接口自动化/语音转留言/yuyin_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python/自动化测试/接口自动化/mianliu_10G.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="22" />
-          <folding>
-            <element signature="e#65#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-          <folding>
-            <element signature="e#66#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="e#65#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/GetToken.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-814">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="e#65#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/getYaml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/LogInfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-617">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/MD5page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/mysql_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528">
-          <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/osCommand.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/send_email.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/timeDecorator.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/Thread.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requestProt/K8S_msg/K8s_card_send.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="16" column="91" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="91" />
-          <folding>
-            <element signature="e#82#97#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requestProt/K8S_call/K8S_call_log_save.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="37" selection-start-line="37" selection-end-line="57" selection-end-column="56" />
-          <folding>
-            <element signature="e#82#97#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/data_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="55" />
-          <folding>
-            <element signature="e#82#91#0" expanded="true" />
-          </folding>
+          <caret line="18" selection-start-line="18" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/requestProt/K8S_msg/K8s_send_sms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="1122">
+          <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requestProt/K8S_msg/K8s_verify_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="33" column="41" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/MD5page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requestProt/new_send_msg/BJL_send_msg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python/其他/练习题/luo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python/其他/for循环获取序列.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python/其他/练习题/TEST.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python/其他/字符串.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2508">
+          <caret line="115" column="26" selection-start-line="115" selection-start-column="26" selection-end-line="115" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python/基础/生成器，闭包，装饰器/斐波拉契.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requestProt/test.py" />
+    <entry file="file://$PROJECT_DIR$/../python/基础/列表推导式.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python/基础/列表内字典排序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python/基础/不定长参数.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python/其他/练习题/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DjangoProject/dj.py" />
+    <entry file="file://E:/python_environment/DjangoProject/Lib/site-packages/django/bin/django-admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/929349549/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="4782" column="66" lean-forward="true" selection-start-line="4782" selection-start-column="66" selection-end-line="4782" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python/其他/test_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python/其他/test_xianc.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python/基础/args_1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python/基础/测试IF.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/mysql_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python/常用模块/时间timel/日期递增.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requestProt/K8S_open/k8s_open_account.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pagefile/port_data.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requestProt/new_send_msg/XLZ_send_msg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DjangoProject/ly/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DjangoProject/ly/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DjangoProject/blog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2684">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DjangoProject/blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="21" selection-start-line="21" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requestProt/andfans_activity/send_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding>
-            <element signature="e#81#96#0" expanded="true" />
+            <element signature="e#72#87#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requestProt/andfans_activity/receive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="e#72#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requestProt/andfans_activity/service_query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="59" />
+          <folding>
+            <element signature="e#72#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requestProt/andfans_activity/operation_query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
         </state>
       </provider>
     </entry>

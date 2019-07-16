@@ -8,5 +8,8 @@
     <orderEntry type="module" module-name="meetyou_automation" />
     <orderEntry type="module" module-name="andfetion_automation_u2" />
     <orderEntry type="module" module-name="meetyou_automation_pytest_allure" />
+    <orderEntry type="module" module-name="appium-Demo-dev" />
+    <orderEntry type="module" module-name="认证中心压力测试" />
+    <orderEntry type="module" module-name="DjangoProject" />
   </component>
 </module>

@@ -36,7 +36,7 @@ def run_num(bingfa,xunhuan):
         run(bingfa)
 if __name__ == '__main__':
     bingfa=1000
-    xunhuan=3
+    xunhuan=1000
     run_num(bingfa,xunhuan)
     CGL = (next(a) - 1) / (bingfa * xunhuan)
     print("成功为【{}】次，执行请求【{}】次，成功率为【{}】".format((next(a) - 2), (bingfa * xunhuan), str(CGL * 100) + '%'))

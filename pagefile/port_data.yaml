@@ -8,5 +8,46 @@ templateId: 5ca474c9ba20288cedef9031
 
 call_log_save:                                #通话日志保存
     url: http://k8s.meetyou1.com:30080/call-log-api/callLog/save
+    #url: http://www.wemeetyou.cn/call-log-api/callLog/save
     privateKey: MIIBVgIBADANBgkqhkiG9w0BAQEFAASCAUAwggE8AgEAAkEAtTIFOZYxwOM9P80aiic+q+XfbE9cWOgACp5VW2utaVGI+D8JjeSOarvBu1xyLXvN3/HUBGs0WR+rG4G3KfbsOwIDAQABAkAay9bx+UBKYlDAiriODde63Df6cJIbo9O9vkSpTHdMx73XNFuVWPsnS87jVP4yxAvWIRWqQjS2Y7+EAA1sb2bBAiEA9V1bBpKcurC2USgY23qKe9n9hmvpWlMi4tCRyCC6DoMCIQC9DJ9DR6dTPm7uOIKfr5ur+654nUPcHujefJspWCO96QIhAMfgS8V363rddzd3bYBlO6iWtMMq5wYwkUupUghwOICXAiEAsSIIf+O9dhQDoJW2XqUN+YEiosTH9pHHo9+hCoYZRzECIQDByseYCROnRqRlmFO0TG2WPoeKd8kicG9ut56gluzTQQ==
     appid: 4defda065f4c11e99bea00ff818aeea5
+
+open_account:                                 #开户接口
+    url: http://k8s.meetyou1.com:30080/account/api/open
+    privateKey: MIIBVAIBADANBgkqhkiG9w0BAQEFAASCAT4wggE6AgEAAkEA3NqEFK1zibrEQ2Ix08Rj7e7oqAJYU5IVcwMt6/ABWoO2w6dv8d8Nm1ZTCjrUrVo6nrfpXDI9jkfWk95DkIFb0QIDAQABAkBJnZjLH6nUbem/oDqFoP/CLpFkdyuj55y4soWbEGwTFBfJbBDV1lSqBkSN9xEvCXiCGP3DfuwMiJVu3VxysEQBAiEA8tEru1MQ1ZAMa0+TYXpx2Pvql0grFXGDHq1dN1pcZpECIQDo2BULcm+MK408QUkcYkGaWVGJAsgIO0bwgmFGJjjBQQIgH6fla6aIq078T4EwVaUA8qjlDJP8Ce+iiH1RicXeBgECICmM/dxoFG3QC8kX4WMWSZywmbM4cte9NECRE6jAA1rBAiEAwpU/d+48OqZypgUjN6v5ih7oqX/d8BO1LrZFNMXmQU0=
+    appidPro: c8f8ded8a7d945c7a9888afb6d4e45ca
+
+andfetion_authproxy:                        #认证中心
+    getTokenUrl: http://221.176.34.113:8761/v1/andfetion/authproxy/svr/refreshToken
+    refreshTokenUrl: http://221.176.34.113:8080/v1/andfetion/authproxy/svr/accessToken
+    validateTokenUrl: http://221.176.34.113:8080/v1/andfetion/authproxy/svr/validate
+    appID: 5c551549dce71248c5321874
+    secret: ZWPxcug8EzLRylMMskM2IUC9DKNnp2ZP
+
+many_phone:                                 #多方电话
+    found_call_url: http://mywxtest.zone139.com/myGroupCall/myUser/call
+    privateKey: MIIBUwIBADANBgkqhkiG9w0BAQEFAASCAT0wggE5AgEAAkEAwjDtvoB+ZnEV1dY1n4LCJW6QfGrWs1S5vj4wXVqppqFGh/d5tJSO8kgOvQZc4ZaZhEY8C9nNH3nQtT+IdBbb+wIDAQABAkAnHlgmMhhEZq9xXi97LIoTpEwy5ArQIVcxfbGcfLEEQcq5ITkHWa3d0M1IWv1raDpZI/fsmSZBFj5sGUMUAGdhAiEA7wnybcTQmbfibH/NSqh7EXnw6XyWw/C3hfXHpTXhRdkCIQDP+FbVtU6oVUx7UYApt58LwZxjpsgegheBbIUM/Jmn8wIgG0wLfzWGjMdO+AzwKKJsy2YdeMxdeyq2Cnoyvk8U1qECIAEM5QthRgttmtxIlhgf2ErL6IlMT1hwGcRKkwV0xSXnAiAJyiT3R0Xp665N6HhXS7iN8MBRIRbxLDdNaGiUQO/nRw==
+
+number_segment:                           #号码段查询
+#    url: http://k8s.andfetion.com:30080/number-segment/sectionnumber/qrySections
+    url: http://k8s.andfetion.com:30080/numberSegment/sectionnumber/qrySections
+
+send_msg_templabe:                        #发送短信模板
+    url: http://mywxtest.zone139.com:8761/v1/andfetion/sms/svr/message
+#    url: https://mywx.zone139.com/v1/andfetion/sms/svr/message
+    appId: 5c5542683716c4c1ca88f078
+    templateId: 35b5192e47644add950a0862bf42698a
+    secret: ZWPxcug8EzLRylMMskM2IUC9DKNnp2ZP
+
+login_send_msg:                           #登录接口验证码发送
+    url: http://k8s.andfetion.com:30080/v1/andfetion/login/smscode
+#    url: http://mywxtest.zone139.com:8761/v1/andfetion/login/smscode
+    privateKey: MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBAOvhxQqY5dDdus+gBUFlV15v3+Ah1Ob/+Gbdqpv93df5lqn44cZO4eB+dNKQjjuexeAmRPLm2w3giG/JO4FJCk5gb069gcwdnGoC3Vcp9rNlQ8N/UxH4cLjFPWE7iehmebWfyqzom0j3LOKt+ebTD37n9f0eFprvlyQ5RDlRZh59AgMBAAECgYEAzbAl3kPNwwBWsk5bxtbUBOmRUyStPnHe7fRFnZkWJgrisnzwg7ithtE+lY6wOJUO/5LfdOCSC9vLnY7gcLB8Zodll7FdlRmvWlgClyCW6N6e8XcMFVeivksGYrkMhu9ssQDmaZJSbA13wU4RniSw+emUtvz3RogxmZLZ0QtSiQECQQD3Wv7S7wZmEu4MwnTEb3+LN5bXuPgaMeiAxYiHiB0TeTLJDORQZRrZ/HOrF//jbg7OkEiIl9RX5Ky+kv0HuV5tAkEA9CAf3SWRDt6GVsVBmcTfAFcJfWpGbrP5JjgIAp5LIuSOdfLmiGzyLXEpDLl1l4ekRB7xcfiIj72jzq20v312UQJALjRvOVOw7ExI71U7np39QzIlGTLSFYKRHczIThjc5ZBULj4cP/BC7ck8ig83m3IpjehhxDIoViq/IfIvFcxImQJBALdTdHo/Hsq6wslggl32IL0Bn4fGCjRSBNT1mNZWhvgiCPV8PjDPF6KWaww6LZtoaiwZzJkY2XyQHfY0LhrrHbECQQDShFVr1rXHUZ/EisRZrru18c50nC124VXqnoYEuRe6CuVXHvh1Q4iO4/dRFQRBo8WSRAUUT8DLaAitCntA/9lT\
+    publicKey: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCZG/rGmop0BB/YrgiACFYrSAR5zi8fZ/9hPLuKlXmuV42UqmVM3rZadoo0n5xqsLu5Ye1Gb2HRrBR5eyAGhP0FAkNGUBLh4KiYOsk5qAWF8ii+VQySEAlX1FmXXI+qotVKDQFM/ySBJr5o7tCYD/IS7E2McMDOyupz17JlISS4RQIDAQAB
+
+andfans_activity:                         #和粉活动
+    url_add: http://221.176.34.113:8761
+    sendcode_url: /andfans-activity/receiveRecord/getCode                 #获取验证码地址
+    receive_url: /andfans-activity/receiveRecord/receive                  #和粉领取
+    operation_query_url: /andfans-activity/report/query                        #运营查询
+    service_query_url: /andfans-activity/report/recordPage                    #客服查询

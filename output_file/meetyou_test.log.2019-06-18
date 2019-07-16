@@ -1,0 +1,23 @@
+2019-06-17 15:59:29,638 - framework - ERROR - token获取失败'body'
+2019-06-17 16:53:08,955 - framework - ERROR - token获取失败'body'
+2019-06-17 16:59:45,034 - framework - ERROR - token获取失败'body'
+2019-06-17 16:59:45,753 - framework - ERROR - 数据请求有误
+2019-06-17 16:59:48,628 - framework - ERROR - token获取失败'body'
+2019-06-17 16:59:48,955 - framework - ERROR - 数据请求有误
+2019-06-17 16:59:55,907 - framework - ERROR - token获取失败'body'
+2019-06-17 16:59:56,548 - framework - ERROR - 数据请求有误
+2019-06-17 17:04:24,480 - framework - ERROR - token获取失败'body'
+2019-06-17 17:04:25,026 - framework - ERROR - 数据请求有误
+2019-06-17 17:35:13,483 - framework - ERROR - token获取失败'body'
+2019-06-17 17:35:13,905 - framework - ERROR - 其他错误
+2019-06-17 17:35:38,859 - framework - ERROR - token获取失败'body'
+2019-06-17 17:35:39,296 - framework - ERROR - 其他错误
+2019-06-17 17:35:41,983 - framework - ERROR - 其他错误
+2019-06-17 17:36:07,258 - framework - ERROR - token获取失败'body'
+2019-06-17 17:36:07,584 - framework - ERROR - 其他错误
+2019-06-17 17:36:10,583 - framework - ERROR - 其他错误
+2019-06-17 17:38:19,252 - framework - ERROR - token获取失败HTTPConnectionPool(host='192.168.203.151', port=13600): Max retries exceeded with url: /SC/v21/family/auth/token?mobile=13635442444 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7794ED358>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+2019-06-17 17:38:46,499 - framework - ERROR - token获取失败HTTPConnectionPool(host='192.168.203.151', port=13600): Max retries exceeded with url: /SC/v21/family/auth/token?mobile=13629984114 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DB3245D0F0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+2019-06-17 17:39:22,580 - framework - ERROR - token获取失败HTTPConnectionPool(host='192.168.203.151', port=13600): Max retries exceeded with url: /SC/v21/family/auth/token?mobile=13627124213 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C40599D3C8>: Failed to establish a new connection: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。'))
+2019-06-17 17:41:25,703 - framework - ERROR - token获取失败HTTPConnectionPool(host='192.168.203.151', port=13600): Max retries exceeded with url: /SC/v21/family/auth/token?mobile=1362860640 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017C7FDAD4E0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+2019-06-18 10:01:56,653 - framework - ERROR - token获取失败'body'
